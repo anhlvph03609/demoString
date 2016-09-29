@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		63ABFA351D9CBB330072F7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABFA341D9CBB330072F7A8 /* AppDelegate.swift */; };
 		63ABFA371D9CBB330072F7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABFA361D9CBB330072F7A8 /* ViewController.swift */; };
-		63ABFA3A1D9CBB330072F7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ABFA381D9CBB330072F7A8 /* Main.storyboard */; };
 		63ABFA3C1D9CBB330072F7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ABFA3B1D9CBB330072F7A8 /* Assets.xcassets */; };
 		63ABFA3F1D9CBB330072F7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ABFA3D1D9CBB330072F7A8 /* LaunchScreen.storyboard */; };
 		63ABFA4A1D9CBB340072F7A8 /* Demo4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABFA491D9CBB340072F7A8 /* Demo4Tests.swift */; };
 		63ABFA551D9CBB340072F7A8 /* Demo4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABFA541D9CBB340072F7A8 /* Demo4UITests.swift */; };
+		63B155A11D9D53870094A257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B155A01D9D53870094A257 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		63ABFA311D9CBB330072F7A8 /* Demo4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ABFA341D9CBB330072F7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63ABFA361D9CBB330072F7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63ABFA391D9CBB330072F7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63ABFA3B1D9CBB330072F7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63ABFA3E1D9CBB330072F7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63ABFA401D9CBB330072F7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		63ABFA501D9CBB340072F7A8 /* Demo4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ABFA541D9CBB340072F7A8 /* Demo4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4UITests.swift; sourceTree = "<group>"; };
 		63ABFA561D9CBB340072F7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B155A01D9D53870094A257 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 			children = (
 				63ABFA341D9CBB330072F7A8 /* AppDelegate.swift */,
 				63ABFA361D9CBB330072F7A8 /* ViewController.swift */,
-				63ABFA381D9CBB330072F7A8 /* Main.storyboard */,
 				63ABFA3B1D9CBB330072F7A8 /* Assets.xcassets */,
+				63B155A01D9D53870094A257 /* Main.storyboard */,
 				63ABFA3D1D9CBB330072F7A8 /* LaunchScreen.storyboard */,
 				63ABFA401D9CBB330072F7A8 /* Info.plist */,
 			);
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					63ABFA301D9CBB330072F7A8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BC438L6775;
 						ProvisioningStyle = Automatic;
 					};
 					63ABFA441D9CBB340072F7A8 = {
@@ -232,9 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B155A11D9D53870094A257 /* Main.storyboard in Resources */,
 				63ABFA3F1D9CBB330072F7A8 /* LaunchScreen.storyboard in Resources */,
 				63ABFA3C1D9CBB330072F7A8 /* Assets.xcassets in Resources */,
-				63ABFA3A1D9CBB330072F7A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63ABFA381D9CBB330072F7A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63ABFA391D9CBB330072F7A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63ABFA3D1D9CBB330072F7A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BC438L6775;
 				INFOPLIST_FILE = Demo4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anh.Demo4;
@@ -424,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BC438L6775;
 				INFOPLIST_FILE = Demo4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anh.Demo4;
@@ -505,6 +500,7 @@
 				63ABFA5B1D9CBB340072F7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63ABFA5C1D9CBB340072F7A8 /* Build configuration list for PBXNativeTarget "Demo4Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +509,7 @@
 				63ABFA5E1D9CBB340072F7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63ABFA5F1D9CBB340072F7A8 /* Build configuration list for PBXNativeTarget "Demo4UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +518,7 @@
 				63ABFA611D9CBB340072F7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

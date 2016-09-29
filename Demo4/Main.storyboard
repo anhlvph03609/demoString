@@ -30,22 +30,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gCF-38-Bla">
                                 <frame key="frameInset" minX="62" minY="136" width="250" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z82-m1-xfN">
                                 <frame key="frameInset" minX="62" minY="191" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <action selector="btnReg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9jy-6p-czx"/>
-                                    <segue destination="Yvx-Ti-lLk" kind="modal" id="SXh-3G-3LF"/>
+                                    <action selector="btnReg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAG-UI-FN3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcf-XX-IlF">
@@ -53,11 +52,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
-                                    <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eEZ-jG-uoN"/>
+                                    <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ny5-HA-uBB"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RVF-vz-yKp">
-                                <frame key="frameInset" minX="67" minY="257" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kDR-Sp-fIo">
+                                <frame key="frameInset" minX="62" minY="269" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -67,10 +66,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="txtEmail" destination="TaY-A0-Deg" id="jcN-ga-5F8"/>
-                        <outlet property="txtPass" destination="gCF-38-Bla" id="bRT-Oj-34L"/>
-                        <outlet property="txtUserProfile" destination="RVF-vz-yKp" id="yjU-5i-zNw"/>
-                        <outlet property="txtUsername" destination="CcQ-Mt-lJh" id="Zdq-2T-nZp"/>
+                        <outlet property="tvListUser" destination="kDR-Sp-fIo" id="Ada-u7-sqk"/>
+                        <outlet property="txtEmail" destination="TaY-A0-Deg" id="N80-U6-Vcs"/>
+                        <outlet property="txtPass" destination="gCF-38-Bla" id="T1l-n2-Lsn"/>
+                        <outlet property="txtUsername" destination="CcQ-Mt-lJh" id="Ajb-q2-M3K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
